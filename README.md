@@ -4,7 +4,7 @@ we can use here two method :
 ths first exist already (the default one)
 the second is for the dev application-dev.properties
 the third is for the production application-production.properties
-
+ps : i copied the files in another package for trace , to activate them we need to move them to resource folder
 ![1](https://user-images.githubusercontent.com/36199753/115276748-5835df00-a13b-11eb-9531-0422c68e814f.PNG)
 
 
