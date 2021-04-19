@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active:
+      - dev
+      - production
+spring.message: default message
+---
+spring:
+  profiles: production
+spring.message: prodcution message
+---
+spring:
+  profiles: dev
+spring.message: dev message
+
+#in the yml file the order of profile depend of which profile are created first using --- not like application.proprites
+ # in this case dev profile is declared after production so we gonna take the data from dev not production
+  # this valid from spring boot version 2.4.4
+  # if we are in application.prop not yml we gonna have production after dev because it declared in the top -production after -dev
